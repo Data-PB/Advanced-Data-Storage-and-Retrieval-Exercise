@@ -14,6 +14,8 @@ To begin, used Python and SQLAlchemy to do basic climate analysis and data explo
 *	Ploted the results using the DataFrame plot method.
 *	Used Pandas to print the summary statistics for the precipitation data.
 
+![precipitation](Images/precipitation.png)
+
 ## Station Analysis
 * Designed a query to calculate the total number of stations.
 * Designed a query to find the most active stations.
@@ -22,6 +24,8 @@ To begin, used Python and SQLAlchemy to do basic climate analysis and data explo
 * Designed a query to retrieve the last 12 months of temperature observation data (TOBS).
 * Filtered by the station with the highest number of observations.
 * Plotted the results as a histogram with bins=12.
+
+![station-histogram](Images/station-histogram.png)
 
 ## Climate App
 * Designed a Flask API based on the queries that I had developed above.
@@ -35,6 +39,7 @@ Across all the stations, the mean temperatures in June and December temperature 
 * Plotted the min, avg, and max temperature from query as a bar chart.
     * Used the average temperature as the bar height.
     * Used the peak-to-peak (TMAX-TMIN) value as the y error bar (YERR).
+    
 ![temperature](Images/temperature.png)
 
 ## Daily Rainfall Average
